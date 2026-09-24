@@ -13,7 +13,7 @@ set -ex
 
 #rm -rf build/install
 python3 waf configure -T $buildtype --notests -4 --togles --emscripten \
-	--disable-warns --build-games=portal --prefix=build/install
+	--disable-warns --build-games=cstrike --prefix=build/install
 python3 waf install $@
 find build/ -name '*.map' -exec cp {} build/install/ \;
 
