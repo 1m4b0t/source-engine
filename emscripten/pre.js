@@ -10,22 +10,24 @@ Module['arguments'].push(
 
 class DataLoader {
 	mapsOrdered = [
-		'background1',
-		'testchmb_a_00',
-		'testchmb_a_01',
-		'testchmb_a_02',
-		'testchmb_a_03',
-		'testchmb_a_04',
-		'testchmb_a_05',
-		'testchmb_a_06',
-		'testchmb_a_07',
-		'testchmb_a_08',
-		'testchmb_a_09',
-		'testchmb_a_10',
-		'testchmb_a_11',
-		'testchmb_a_13',
-		'testchmb_a_14',
-		'testchmb_a_15'
+		'cs_assault',
+		'cs_compound',
+		'cs_havana',
+		'cs_italy',
+		'cs_militia',
+		'cs_office',
+		'de_aztec',
+		'de_cbble',
+		'de_chateau',
+		'de_dust',
+		'de_dust2',
+		'de_inferno',
+		'de_nuke',
+		'de_piranesi',
+		'de_port',
+		'de_prodigy',
+		'de_tides',
+		'de_train'
 	]
 
 	loadedMaps = {}
